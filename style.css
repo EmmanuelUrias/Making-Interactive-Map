@@ -1,0 +1,17 @@
+#map {
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+  }
+  #map::before {
+    content: "Loading...";
+    background-color: black;
+    color: white;
+    font-size: 4em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 4em;
+  }
+  .leaflet-popup-content-wrapper {
+    width: 100%;
+  }
